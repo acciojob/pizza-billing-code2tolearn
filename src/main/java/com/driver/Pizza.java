@@ -40,10 +40,10 @@ public class Pizza {
         if (! this.addExtraToppings) {
              this.addExtraToppings = true ;
             if (isVeg) {
-                price += 70;
+                this.price += 70;
             }
             else {
-                price += 120;
+                this.price += 120;
             }
         }
     }
