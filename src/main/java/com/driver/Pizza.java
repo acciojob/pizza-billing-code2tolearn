@@ -79,8 +79,8 @@ public class Pizza {
         {
             str.append("Paperbag Added:"+20+'\n') ;
         }
-       str.append("Total Price:"+price+'\n') ;
-        this.bill = new String(str) ;
+       str.append("Total Price:"+this.price+'\n') ;
+        this.bill = str.toString() ;
         return this.bill;
     }
 }
