@@ -16,7 +16,7 @@ public class Pizza {
             price+=400;
         }
 
-        bill="Base Price Of The Pizza: "+price+"\n";
+       // bill="Base Price Of The Pizza: "+price+"\n";
     }
 
 
@@ -30,7 +30,7 @@ public class Pizza {
         // your code goes here
         if(flag1==false){
             this.price+=80;
-            bill+="Extra Cheese Added: 80\n";
+          //  bill+="Extra Cheese Added: 80\n";
             flag1=true;
         }
     }
@@ -41,11 +41,11 @@ public class Pizza {
         if(flag2==false){
             if(isVeg==true){
                 this.price+=70;
-                bill+="Extra Toppings Added: "+70+"\n";
+              //  bill+="Extra Toppings Added: "+70+"\n";
             }
             else{
                 this.price+=120;
-                bill+="Extra Toppings Added: "+120+"\n";
+             //   bill+="Extra Toppings Added: "+120+"\n";
             }
             flag2=true;
         }
@@ -56,7 +56,7 @@ public class Pizza {
         // your code goes here
         if(flag3==false){
             this.price+=20;
-            bill+="Paperbag Added: "+20+"\n";
+          //  bill+="Paperbag Added: "+20+"\n";
             flag3=true;
         }
     }
