@@ -22,6 +22,46 @@ public class Pizza {
          }
     }
 
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public Boolean getVeg() {
+        return isVeg;
+    }
+
+    public void setVeg(Boolean veg) {
+        isVeg = veg;
+    }
+
+    public void setBill(String bill) {
+        this.bill = bill;
+    }
+
+    public boolean isAddExtraCheese() {
+        return addExtraCheese;
+    }
+
+    public void setAddExtraCheese(boolean addExtraCheese) {
+        this.addExtraCheese = addExtraCheese;
+    }
+
+    public boolean isAddExtraToppings() {
+        return addExtraToppings;
+    }
+
+    public void setAddExtraToppings(boolean addExtraToppings) {
+        this.addExtraToppings = addExtraToppings;
+    }
+
+    public boolean isAddTakeaway() {
+        return addTakeaway;
+    }
+
+    public void setAddTakeaway(boolean addTakeaway) {
+        this.addTakeaway = addTakeaway;
+    }
+
     public int getPrice(){
         return this.price;
     }
